@@ -1,0 +1,38 @@
+SQL Data Types:
+Each column in a database table is required to have a name and a data type.
+An SQL developer must decide what type of data that will be stored inside each column when creating a table. The data type is a guideline
+for SQL to understand what type of data is expected inside of each column, 
+and it also identifies how SQL will interact with the stored data.
+
+SQL Server Data Types
+
+Text: An alphanumeric string of letters, numbers, and (in some cases) symbols. There are two types of text fields:
+Standard or "small" text fields are used for very specific, statistical information that is entered into contact fields, account fields, or custom object records. 
+Small text contact fields and account fields have a maximum of 100 characters, and small text custom object records have a maximum of 250 characters. 
+If you are using a multi-select picklist with text fields, each field has a limit of 1000 characters.
+Large text fields of any kind support up to 32,000 characters. 
+These fields can be used to provide descriptions, extra context, or feedback, depending on the nature of the asset in which the field is placed.
+
+String Data Types :
+Data type          	Description     	                Max size	                Storage
+char(n)     	  Fixed width character string	    8,000 characters	           Defined width
+varchar(n)	    Variable width character string	  8,000 characters	           2 bytes + number of chars
+varchar(max)	  Variable width character string 	1,073,741,824 characters	   2 bytes + number of chars
+text	          Variable width character string	  2GB of text data	           4 bytes + number of chars
+nchar	          Fixed width Unicode string	      4,000 characters	           Defined width x 2
+nvarchar	      Variable width Unicode string    	4,000 characters	 
+nvarchar(max)	  Variable width Unicode string	    536,870,912 characters	 
+ntext         	Variable width Unicode string	                                 2GB of text data	 
+binary(n)    	  Fixed width binary string	        8,000 bytes	 
+varbinary	      Variable width binary string	    8,000 bytes	 
+varbinary(max)	Variable width binary string	                                  2GB	 
+image	          Variable width binary string	                                  2GB
+
+
+
+Numeric: Includes decimal numbers (up to four decimal points) and integer numbers (including negative values). 
+The maximum length of a numeric value is 19 integer digits (15 before the decimal point and 4 digits after the decimal point). 
+Text values such as "$" are no longer allowed in the field, but are now part of the format.
+
+Date/time: A properly-formatted date and/or time in one of the formats allowed in your implementation of Eloqua. 
+For example, you can use the MM/DD/YYYY format for dates (the North American format) or you may be set up to also allow DD/MM/YYYY, MMM-DD-YY, or MM-DD-YY HH:MM:SS.

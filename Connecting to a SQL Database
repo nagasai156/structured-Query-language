@@ -1,0 +1,37 @@
+SQL Server Management Studio (SSMS) is the principal tool for administering the Database Engine and writing Transact-SQL code. 
+It's hosted in the Visual Studio shell. SSMS is available as a free download. The latest version can be used with older versions of the Database Engine.
+
+SQL Server Configuration Manager installs with both SQL Server and the client tools.
+It lets you enable server protocols, configure protocol options such as TCP ports, configure server services to start automatically, 
+and configure client computers to connect in your preferred manner. 
+This tool configures the more advanced connectivity elements but doesn't enable features.
+
+
+To determine the name of the instance of the Database Engine
+Log into Windows as a member of the Administrators group, and open Management Studio.
+In the Connect to Server dialog box, select Cancel.
+If Registered Servers isn't displayed, on the View menu, select Registered Servers.
+With Database Engine selected on the Registered Servers toolbar, expand Database Engine, right-click Local Server Groups, point to Tasks,
+and then select Register Local Servers. Expand Local Server Groups to see all the instances of the Database Engine installed on the computer displayed. 
+The default instance is unnamed and is shown as the computer name. A named instance displays as the computer name followed by a backward slash (\) and
+then the name of the instance. 
+For SQL Server Express, the instance is named <computer_name>\sqlexpress unless the name was changed during setup.
+
+
+To verify that the Database Engine is running
+In Registered Servers, if the name of your instance of SQL Server has a green dot with a white arrow next to the name,
+the Database Engine is running and no further action is necessary.
+If the name of your instance of SQL Server has a red dot with a white square next to the name, the Database Engine is stopped. 
+Right-click the name of the Database Engine, select Service Control, and then select Start.
+After a confirmation dialog box, the Database Engine should start and the circle should turn green with a white arrow.
+
+
+To connect to the Database Engine
+1.At least one administrator account was selected when SQL Server was being installed. Perform the following step while logged into Windows as an administrator.
+In Management Studio, on the File menu, select Connect Object Explorer.
+2.The Connect to Server dialog box opens. The Server type box displays the type of component that was last used.
+3.Select Database Engine.
+In the Server name box, type the name of the instance of the Database Engine. 
+For the default instance of SQL Server, the server name is the computer name.
+For a named instance of SQL Server, the server name is the <computer_name>\<instance_name>, such as ACCTG_SRVR\SQLEXPRESS. 
+4.Select Connect.

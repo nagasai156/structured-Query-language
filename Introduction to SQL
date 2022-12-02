@@ -1,0 +1,29 @@
+SQL is a standard language for accessing and manipulating databases.
+SQL stands for Structured Query Language.
+SQL lets you access and manipulate databases.
+SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+SQL can execute queries against a database, retrieve data from a database, insert, update records in a database, delete records from a database create new databases.
+
+SQL commands can be categorized into five categories based on their functionality. They are as follows:
+DDL – Data Definition Language
+DQL – Data Query Language
+DML – Data Manipulation Language
+DCL – Data Control Language
+TCL – Transaction Control Language
+
+Data Definition Language(DDL)    : DDL commands are used for creating and altering the database and database object in the relational database management system, 
+                                   like CREATE DATABASE, CREATE TABLE, ALTER TABLE, etc. The most used DDL commands are CREATE, DROP, ALTER, and TRUNCATE.
+                                
+Data Query Language(DQL)         :  DQL command is used for fetching the data. DQL command is used for selecting data from the table, view, temp table, table variable, etc. 
+                                    There is only one command under DQL which is the SELECT command.
+                           
+Data Manipulation Language(DML)  : DML commands are used for manipulating data in a relational database management system. DML commands are used for adding, removing, 
+                                   updating data in the database system, like INSERT INTO TableName, DELETE FROM TableName, UPDATE tableName set data, etc.
+                                   The most used DML commands are INSERT INTO, DELETE FROM, UPDATE. 
+
+Data Control Language(DCL)       : DCL commands are used for providing and taking back the access rights on the database and database objects. DCL command used for 
+                                   controlling user’s access on the data. Most used DCL commands are GRANT and REVOKE.
+                            
+Transaction Control Language(TCL): TCL commands are used for handling transactions in the database. Transactions ensure data integrity in the multi-user environment. 
+                                   TCL commands can rollback and commit data modification in the database. The most used TCL commands are COMMIT, ROLLBACK, SAVEPOINT, and SET TRANSACTION.
+ 

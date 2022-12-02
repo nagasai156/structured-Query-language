@@ -1,0 +1,24 @@
+Oracle Database (commonly referred to as Oracle DBMS, Oracle Autonomous Database, or simply as Oracle) is a multi-model database management system produced 
+and marketed by Oracle Corporation.
+
+Oracle was founded on June 16, 1977 by Larry Ellison, Bob Miner and Ed Oates under the name Software Development Laboratories (SDL). 
+Until 1979, the company did not succeed with this name, and in 1979, three adventurous friends who changed the company name to Relational Software Inc worked in
+Relational Software Inc. until 1982. 
+
+Version 	      Release Year                  New Features
+Oracle v2,         1979	        First commercially SQL-based RDBMS
+Oracle v3,         1983	        Concurrency control, data distribution, scalability
+Oracle v4,         1984	        Multiversion read consistency
+Oracle v5,         1985	        Client/server computing Support & distributed database systems
+Oracle v6,         1988       	Row-level locking, scalability, online backup and recovery, PL/SQL, Oracle Parallel Server
+Oracle  7,         1992	        PL/SQL stored procedures, Triggers, Shared Cursors, Cost Based Optimizer, Transparent Application Failover
+Oracle  8,         1997	        Recovery Manager, Partitioning, Dataguard, Native internet protocols, Java, Virtual Private Database
+Oracle  9,         2001	        Oracle Real Application Clusters (RAC), Oracle XML DB, Data Mining, Streams, Logical Standby
+Oracle 10gR1,      2003	        Grid infrastructure, Oracle ASM, Flashback Database, Automatic Database Diagnostic Monitor
+Oracle 10gR2,      2005	        Real Application Testing, Database Vault, Online Indexing, Advanced Compression, Transparent Data Encryption
+Oracle 11gR1,      2007	        Active Data Guard, Secure Files, Exadata
+Oracle 11gR2,      2009	        Data Redaction, Hybrid Columnar Compression, Cluster File System, Golden Gate Replication, Database Appliance
+Oracle 12cR1,      2013	        Multitenant architecture, In-Memory Column Store, Native JSON, SQL Pattern Matching, Database Cloud Service
+Oracle 12cR2,      2016	        Native Sharding, Zero Data Loss Recovery Appliance, Exadata Cloud Service, Cloud at Customer
+Oracle 18c,        2018	        Autonomous Database, Data Guard Multi-Instance Redo Apply, Polymorphic Table Functions, Active Directory Integration
+Oracle 19c,        2019	        Automatic Indexing, Data-guard DML Redirect,Partitioned Hybrid Tables, Real-time Stats + Stats Only Queries

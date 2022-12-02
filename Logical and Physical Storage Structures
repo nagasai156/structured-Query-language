@@ -1,0 +1,24 @@
+Oracle Database allocates logical space for all data in the database. The logical units of database space allocation are data blocks, extents, segments, and 
+tablespaces. At a physical level, the data is stored in data files on disk. The data in the data files is stored in operating system blocks.
+
+Logical Space Management:
+Oracle Database must use logical space management to track and allocate the extents in a tablespace. When a database object requires an extent, the database 
+must have a method of finding and providing it. Similarly, when an object no longer requires an extent, the database must have a method of making the
+free extent available.
+
+Oracle Database manages space within a tablespace based on the type that you create.
+You can create either of the following types of tablespaces:
+
+Locally managed tablespaces (default)
+The database uses bitmaps in the tablespaces themselves to manage extents. Thus, locally managed tablespaces have a part of the tablespace set aside for a 
+bitmap. Within a tablespace, the database can manage segments with automatic segment space management (ASSM) or manual segment space management (MSSM).
+
+Dictionary-managed tablespaces
+The database uses the data dictionary to manage extent
+
+Physical vs. logical storage:
+Oracle database architecture depends upon two types of storage: physical and logical.
+Physical (disk) storage contains all the files in the database. Logical storage structures, such as tablespaces, segments, extents, and blocks,
+appear on the disk but are not part of the dataset.
+Logical storage helps users locate specific data and improves the efficiency of the retrieval process, enabling
+a modular data storage system in which capacity can be adjusted without affecting performance.

@@ -1,0 +1,20 @@
+RDMS Terminologies include Database, Table, Columns, Rows, Primary key, Foreign Key, Composite key etc.
+Database     : A relational database (RDB) is a way of structuring information in tables, rows, and columns. 
+               i.e. Database is a collection of tables like <Student>, <Professors>, etc.
+Table        : A relational table is a table of columns or fields that describe a listing (or rows) of data.
+               Simply a table is a collection of rows and columns.
+Column       : A column is a list of values, usually belonging to a particular field, displayed vertically in a table.
+               In a relational database table, values within a column each correspond to a different record. Values in a column share a data type. 
+Row          : A row is a single group of related data within a table, Row is also called a tuple in RDBMS.         
+Primary Key  : A primary key is a column or a set of columns in a table whose values uniquely identify a row in the table.
+               A primary key cannot have null values.
+Foreign Key  : A foreign key is a column or a set of columns in a table whose values correspond to the values of the primary key in another table. 
+               In order to add a row with a given foreign key value, there must exist a row in the related table with the same primary key value.
+Super Key    : Super key is a single key or a group of multiple keys that can uniquely identify tuples in a table.       
+               Super Key can contain multiple attributes that might not be able to independently identify tuples in a table, 
+               but when grouped with certain keys, they can identify tuples uniquely.      
+Composite Key: A composite key is a candidate key that consists of two or more attributes (table columns) 
+               that together uniquely identify an entity occurrence (table row).
+Candidate key: Candidate key is a single key or a group of multiple keys that uniquely identify rows in a table. 
+               A Candidate key is a subset of Super keys and is devoid of any unnecessary attributes that are not important for uniquely identifying tuples. 
+               The value for the Candidate key is unique and non-null for all tuples.  
